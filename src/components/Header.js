@@ -17,7 +17,7 @@ const Header = () => {
 
     <Router >
 
-      <nav className="nav flex justify-center items-center  bg- text-white  gap-20 " >
+      <nav className="nav sticky flex justify-center items-center  bg- text-white  gap-20 " >
 
         <div className="container flex justify-center gap-10 m-auto bg-transparent">
 

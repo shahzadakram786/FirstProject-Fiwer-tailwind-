@@ -9,10 +9,10 @@ const HeroSection = () => {
       <div className='mainContainer flex flex-col items-center justify-center text-white'>
 
         <div className='imgContainer'>
-          <img className='img1 w-full h-auto ' src={img} alt="background" />
+          <img className='img1 w-full h-90vh ' src={img} alt="background" />
         </div>
 
-        <div className='textContainer gap-15 flex flex-col justify-center items-center p-4'>
+        <div className='textContainer gap-10 flex flex-col justify-center items-center p-4'>
           
           <div className='imgContainer2 '>
                <img className='w-full' src={logo} alt="logo" />
@@ -44,7 +44,7 @@ const Wrapper = styled.section`
 
 .imgContainer{
 width:100%;
-height:auto;
+height:100%;
 position:absolute;
 top:0;
 left:0;
@@ -53,7 +53,7 @@ z-index:1;
 
 .img1{
 width:100%;
-height:100%;
+// height:100%;
 object-fit:cover;
 
 }

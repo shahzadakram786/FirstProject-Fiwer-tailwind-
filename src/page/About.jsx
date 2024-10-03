@@ -1,9 +1,10 @@
 import React from 'react'
+import Home from './Home'
 
 const About = () => {
-  return (
-    <div>About</div>
-  )
+  // return (
+  //   <Home/>
+  // )
 }
 
 export default About
