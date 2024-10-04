@@ -62,13 +62,14 @@ const Wrapper = styled.section`
 
 }
 .styledNavlink{
-color: white; /* Default color */
+color: white; 
   text-decoration: none; 
 fontSize:40px;
 padding:20px 0;  
 
   &.active {
-    color: yellow; 
+    color: white; 
+    font-weight:bolder;
     
   }
 

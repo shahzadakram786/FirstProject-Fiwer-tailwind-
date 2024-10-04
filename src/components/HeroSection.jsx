@@ -8,8 +8,8 @@ const HeroSection = () => {
     <Wrapper>
       <div className='mainContainer flex flex-col items-center justify-center text-white'>
 
-        <div className='imgContainer'>
-          <img className='img1 w-full h-90vh ' src={img} alt="background" />
+        <div className='imgContainer '>
+          <img className='img1 w-full h-100% ' src={img} alt="background" />
         </div>
 
         <div className='textContainer gap-10 flex flex-col justify-center items-center p-4'>
@@ -21,9 +21,9 @@ const HeroSection = () => {
 
           <div>
             <h2 className='text-5xl font-bold mb-2 '>Free Bootstrap 4 <br />
-            Website Template
-          </h2>
-          <p className='text-lg'>Which ones is your favorite?</p>
+              Website Template
+            </h2>
+             <p className='text-lg'>Which ones is your favorite?</p>
           </div>
           
         </div>
@@ -39,7 +39,8 @@ const Wrapper = styled.section`
   background:rgb(34, 28, 92);
   position:relative;
   width:100%;
-  height:100vh
+  height:92.6vh;
+  overflow:hidden;
 }
 
 .imgContainer{
@@ -53,7 +54,7 @@ z-index:1;
 
 .img1{
 width:100%;
-// height:100%;
+height:auto;
 object-fit:cover;
 
 }
@@ -68,6 +69,7 @@ z-index:2;
 width:30%;
 height:20vh;
 }
+
 `
 
 export default HeroSection
